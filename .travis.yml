@@ -1,0 +1,8 @@
+language: go
+
+addons:
+  artifacts: true
+
+script:
+  - go build
+  - go test -v ./...
