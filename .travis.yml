@@ -2,6 +2,7 @@ language: go
 
 addons:
   artifacts: true
+  target_paths: path_with_my_s3_bucket/cool
 
 script:
   - go build
